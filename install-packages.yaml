@@ -1,0 +1,15 @@
+---
+
+- name: Install packages
+  hosts: all
+  tasks:
+    - name: YUM | Install packages
+      yum: name={{ packages }} state=latest
+      become: yes
+      when: ansible_distribution == "CentOS" or ansible_distribution == "RedHat" or ansible_distribution == "Amazon"
+    - name: APT | Install packages
+      apt: name={{ packages }} state=latest
+      become: yes
+      when: ansible_distribution == "Debian" or ansible_distribution == "Ubuntu"
+
+---
