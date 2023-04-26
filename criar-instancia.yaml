@@ -11,9 +11,4 @@
         assign_public_ip: yes
       register: awx_instance
 
-
-    - name: "Debug task to show the public IP of Debian Instance"
-      debug:
-        msg: "Public IP of the RHEL8 Instance is {{ awx_instance.instances[0].public_ip }}"
-
 ---
