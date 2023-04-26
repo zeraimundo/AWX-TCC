@@ -1,4 +1,4 @@
-
+---
 
 - name: "Provisioning Debian EC2 Instance"
       ec2:
@@ -15,3 +15,5 @@
     - name: "Debug task to show the public IP of Debian Instance"
       debug:
         msg: "Public IP of the RHEL8 Instance is {{ awx_instance.instances[0].public_ip }}"
+
+---
