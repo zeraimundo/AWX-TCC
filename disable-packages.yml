@@ -1,0 +1,13 @@
+---
+
+- name: Remove packages
+  hosts: all
+  tasks:
+    - name: YUM | Remove packages
+      yum: name={{ packages }} state=absent
+      when: ansible_distribution == "CentOS" or ansible_distribution == "RedHat" or ansible_distribution == "Amazon"
+    - name: APT | Remove packages
+      apt: name={{ packages }} state=absent
+      when: ansible_distribution == "Debian" or ansible_distribution == "Ubuntu"
+     
+---     
