@@ -34,3 +34,14 @@ Caso não saiba o ip do servidor AWX, na pasta AWX-TCC digite <b>vagrant ssh</b>
 Tela de login no servidor AWX
 
 ![image](https://user-images.githubusercontent.com/82219488/234565959-127a7d8f-bac2-488d-8d23-77f79d942fda.png)
+
+  Para acessar o sistema pela primeira vez utilize o usuário <b>admin</b><br>A senha de acesso é criada automaticamente na instalação, para descobrir utilize o comando:
+  
+  $ kubectl get secret awx-admin-password -o jsonpath="{.data.password}" --namespace awx | base64 --decode
+  
+  ![image](https://user-images.githubusercontent.com/82219488/234569462-af8bb59a-9d4a-4556-b140-27e6a29e3752.png)
+
+A senha será exibida na próxima linha, ela é apresentada junto com a entrada do shell, nesse caso ela foi: wDfsyvqXpRxxZzQzb8SwEExUfWbOmyxv
+  
+  Após acessar o sistema pela primeira vez a mesma pode ser alterada.
+  
