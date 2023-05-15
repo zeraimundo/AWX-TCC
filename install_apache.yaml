@@ -1,0 +1,19 @@
+---
+
+- name: Install Apache on Debian
+  hosts: all
+  tasks: 
+    - name: APT | Update System
+      apt: 
+        name: apache2
+        state: latest
+      when: ansible_distribution == "Debian" or ansible_distribution == "Ubuntu"
+      tags: debian
+      
+    - name: YUM | Update System
+      yum: 
+        name: httpd
+        state: latest
+      when: ansible_distribution == "CentOS" or ansible_distribution == "RedHat" or ansible_distribution == "Amazon"
+      tags: centos
+...
