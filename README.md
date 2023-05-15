@@ -68,4 +68,4 @@ A senha será exibida na próxima linha, ela é apresentada junto com a entrada 
   Após acessar o sistema pela primeira vez a mesma pode ser alterada.
   
 
-*O AWX na sua versão atual não possui em seu repositório informações sobre requisitos, para este projeto tomaremos como base os requisitos do Ansible Automation Platform
+*O AWX na sua versão atual não possui em seu repositório informações sobre requisitos, para este projeto tomaremos como base os requisitos do Red Hat® Ansible® Automation Platform
