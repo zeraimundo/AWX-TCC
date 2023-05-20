@@ -1,0 +1,26 @@
+Enter passphrase for /runner/artifacts/72/ssh_key_data: 
+Identity added: /runner/artifacts/72/ssh_key_data (root@awx-server)
+
+PLAY [Install packages] ********************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [ec2-18-228-192-145.sa-east-1.compute.amazonaws.com]
+ok: [ec2-52-67-46-162.sa-east-1.compute.amazonaws.com]
+ok: [ec2-52-67-44-12.sa-east-1.compute.amazonaws.com]
+ok: [ec2-54-207-219-64.sa-east-1.compute.amazonaws.com]
+
+TASK [YUM | Install packages] **************************************************
+fatal: [ec2-52-67-44-12.sa-east-1.compute.amazonaws.com]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'packages' is undefined. 'packages' is undefined\\n\\nThe error appears to be in '/runner/project/install-packages.yml': line 6, column 7, but may\\nbe elsewhere in the file depending on the exact syntax problem.\\n\\nThe offending line appears to be:\\n\\n  tasks:\\n    - name: YUM | Install packages\\n      ^ here\\n"}
+skipping: [ec2-18-228-192-145.sa-east-1.compute.amazonaws.com]
+skipping: [ec2-54-207-219-64.sa-east-1.compute.amazonaws.com]
+fatal: [ec2-52-67-46-162.sa-east-1.compute.amazonaws.com]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'packages' is undefined. 'packages' is undefined\\n\\nThe error appears to be in '/runner/project/install-packages.yml': line 6, column 7, but may\\nbe elsewhere in the file depending on the exact syntax problem.\\n\\nThe offending line appears to be:\\n\\n  tasks:\\n    - name: YUM | Install packages\\n      ^ here\\n"}
+
+TASK [APT | Install packages] **************************************************
+fatal: [ec2-18-228-192-145.sa-east-1.compute.amazonaws.com]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'packages' is undefined. 'packages' is undefined\\n\\nThe error appears to be in '/runner/project/install-packages.yml': line 10, column 7, but may\\nbe elsewhere in the file depending on the exact syntax problem.\\n\\nThe offending line appears to be:\\n\\n      when: ansible_distribution == \\"CentOS\\" or ansible_distribution == \\"RedHat\\" or ansible_distribution == \\"Amazon\\"\\n    - name: APT | Install packages\\n      ^ here\\n"}
+fatal: [ec2-54-207-219-64.sa-east-1.compute.amazonaws.com]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'packages' is undefined. 'packages' is undefined\\n\\nThe error appears to be in '/runner/project/install-packages.yml': line 10, column 7, but may\\nbe elsewhere in the file depending on the exact syntax problem.\\n\\nThe offending line appears to be:\\n\\n      when: ansible_distribution == \\"CentOS\\" or ansible_distribution == \\"RedHat\\" or ansible_distribution == \\"Amazon\\"\\n    - name: APT | Install packages\\n      ^ here\\n"}
+
+PLAY RECAP *********************************************************************
+ec2-18-228-192-145.sa-east-1.compute.amazonaws.com : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+ec2-52-67-44-12.sa-east-1.compute.amazonaws.com : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+ec2-52-67-46-162.sa-east-1.compute.amazonaws.com : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+ec2-54-207-219-64.sa-east-1.compute.amazonaws.com : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
