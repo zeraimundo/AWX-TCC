@@ -11,5 +11,3 @@
       apt: name={{ packages }} state=latest
       become: yes
       when: ansible_distribution == "Debian" or ansible_distribution == "Ubuntu"
-
----
