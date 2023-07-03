@@ -66,6 +66,15 @@ Tela de login no servidor AWX
 A senha será exibida na próxima linha, ela é apresentada junto com a entrada do shell, nesse caso ela foi: wDfsyvqXpRxxZzQzb8SwEExUfWbOmyxv
   
   Após acessar o sistema pela primeira vez a mesma pode ser alterada.
-  
+
+## Vídeo
+
+<p align="center"><em>Vídeo com a instalação do AWX usando os recursos deste repositório.</em></p>
+
+<p align="center">
+  <a href="https://youtu.be/T58DE2BV9Hc">
+    <img src="https://img.youtube.com/vi/T58DE2BV9Hc/0.jpg" alt="Clique para assistir ao vídeo">
+  </a>
+</p>
 
 *O AWX na sua versão atual não possui em seu repositório informações sobre requisitos, para este projeto tomaremos como base os requisitos do Red Hat® Ansible® Automation Platform
