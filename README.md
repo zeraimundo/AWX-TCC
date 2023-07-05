@@ -67,7 +67,7 @@ A senha será exibida na próxima linha, ela é apresentada junto com a entrada 
   
   Após acessar o sistema pela primeira vez a mesma pode ser alterada.
 
-## Vídeo
+## Vídeos
 
 <p align="center"><em>Vídeo com a instalação do AWX usando os recursos deste repositório.</em></p>
 
@@ -76,5 +76,81 @@ A senha será exibida na próxima linha, ela é apresentada junto com a entrada 
     <img src="https://img.youtube.com/vi/T58DE2BV9Hc/0.jpg" alt="Clique para assistir ao vídeo">
   </a>
 </p>
+
+<hr style="border: none; height: 2px; background-color: #000; margin: 20px 0;">
+
+<p align="center"><em>Gerenciamento de usuarios.</em></p>
+
+<p align="center">
+  <a href="https://youtu.be/GfWZf3srGdI">
+    <img src="https://img.youtube.com/vi/GfWZf3srGdI/0.jpg" alt="Clique para assistir ao vídeo">
+  </a>
+</p>
+
+<hr style="border: none; height: 2px; background-color: #000; margin: 20px 0;">
+
+<p align="center"><em>Integrando o AWX ao AWS, criando o inventário e importando as Instâncias.</em></p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=x9W9KWJKKS0">
+    <img src="https://img.youtube.com/vi/x9W9KWJKKS0/0.jpg" alt="Clique para assistir ao vídeo">
+  </a>
+</p>
+
+
+<hr style="border: none; height: 2px; background-color: #000; margin: 20px 0;">
+
+<p align="center"><em>Integrando o Repositório GitHub do Trabalho.</em></p>
+
+<p align="center">
+  <a href="https://youtu.be/R2nn_FQ-1KI">
+    <img src="https://img.youtube.com/vi/R2nn_FQ-1KI/0.jpg" alt="Clique para assistir ao vídeo">
+  </a>
+</p>
+
+<hr style="border: none; height: 2px; background-color: #000; margin: 20px 0;">
+
+<p align="center"><em>Criando um Job Template.</em></p>
+
+<p align="center">
+  <a href="https://youtu.be/wrKW72sX2T4">
+    <img src="https://img.youtube.com/vi/wrKW72sX2T4/0.jpg" alt="Clique para assistir ao vídeo">
+  </a>
+</p>
+
+<hr style="border: none; height: 2px; background-color: #000; margin: 20px 0;">
+
+<p align="center"><em>Configurando uma Job Template do tipo Workflow com aprovação.</em></p>
+
+<p align="center">
+  <a href="https://youtu.be/tND4eYmdIWM">
+    <img src="https://img.youtube.com/vi/tND4eYmdIWM/0.jpg" alt="Clique para assistir ao vídeo">
+  </a>
+</p>
+
+<hr style="border: none; height: 2px; background-color: #000; margin: 20px 0;">
+
+<p align="center"><em>Configurando um Job Template com interação do usuário.</em></p>
+
+<p align="center">
+  <a href="https://youtu.be/r0Lf5yz6Gx4">
+    <img src="https://img.youtube.com/vi/r0Lf5yz6Gx4/0.jpg" alt="Clique para assistir ao vídeo">
+  </a>
+</p>
+
+<hr style="border: none; height: 2px; background-color: #000; margin: 20px 0;">
+
+<p align="center"><em>Executando uma Job Template de atualização dos sistemas.</em></p>
+
+<p align="center">
+  <a href="https://youtu.be/WZElJ8phS1U">
+    <img src="https://img.youtube.com/vi/WZElJ8phS1U/0.jpg" alt="Clique para assistir ao vídeo">
+  </a>
+</p>
+
+<br>
+<br>
+
+<br>
 
 *O AWX na sua versão atual não possui em seu repositório informações sobre requisitos, para este projeto tomaremos como base os requisitos do Red Hat® Ansible® Automation Platform
